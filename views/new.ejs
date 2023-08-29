@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Post</title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        #username{
+            width: 180px;
+            height: 40px;
+            text-align: center;
+            margin-top: 10px;
+            font-weight: 600;
+            border-radius: 12px;
+            box-shadow: 1px 1px 10px royalblue;
+        }
+        textarea{
+            border-radius: 15px;
+            text-align: center;
+            padding-top: 10px;
+            box-shadow: 1px 1px 8px royalblue;
+            color: crimson;
+            text-shadow: 1px 1px 8px red;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="/posts" method="post">
+    <input type="text" name="username" id="username"
+    placeholder="Enter your Username"><br><br>
+    <textarea name="content" id="" cols="30" rows="10" placeholder="Write your content"></textarea><br><br>
+    <button class="btn">Submit Post</button>
+</form>
+</body>
+</html>

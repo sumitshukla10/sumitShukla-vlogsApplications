@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+h1{
+    font-size:50px;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: 3px 2px 18px royalblue;
+}
+
+.post{
+    width: 70%;
+    margin-left: 250px;
+    margin-top: 20px;
+    color: whitesmoke;
+    border: 0.2px solid blue;
+    box-shadow: 1px 1px 8px black;
+    padding-left: 12px;
+    border-radius: 12px;
+    transition: all 0.2s linear;
+}
+
+.user{
+    font-size: 25px;
+    color: tomato;
+    text-shadow: 2px 2px 10px red;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.content{
+    color: whitesmoke;
+    font-size: 23px;
+    padding-left: 200px;
+    text-shadow: 1px 1px 8px black;
+}
+
+.delete{
+    width: 90px;
+    height:25px;
+    font-size: 15px;
+    border-radius: 12px;
+    font-weight: 400;
+    box-shadow: 1px 1px 8px black;
+    
+}
+
+.delete:hover{
+    background-color: black;
+    color: white;
+}
+
+.post a{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 10px black;
+    border: 0px solid royalblue;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px royalblue;
+    transition: all 0.2s linear;
+}
+
+.post a:hover{
+    background-color: wheat;
+    color: #0f0c29;
+}
+
+.post:hover{
+    background-color: #0f0c29;
+    color: wheat;
+}
+
+
+.create{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 45%;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px royalblue;
+    transition: all 0.2s linear;
+}
+
+.create:hover{
+    background-color: wheat;
+    color: #0f0c29;
+}
+
+.btn{
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 15px;
+    box-shadow: 1px 1px 14px black;
+    transition: all 0.2s linear;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+@media (max-width:650px) {
+    h1{
+        font-size:40px;
+        font-weight: 700;
+    }
+    .post{
+        width: 90%;
+        margin-left: 12px;
+        margin-top: 12px;
+        padding-left: 2px;
+    
+    }
+    .user{
+        margin-top: 12px;
+        font-size: 22px;
+    }
+    .content{
+        
+        font-size: 18px;
+        padding-left: 20px;
+       
+    }
+    .create{
+        margin-left: 30%;
+        font-size: 20px;
+       
+    }
+}
